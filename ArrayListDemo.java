@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Collections;
 import java.util.Iterator;
 
@@ -65,5 +66,9 @@ public class ArrayListDemo{
         //Remove all the element of the list.
         list.clear();
         System.out.println(list);
+
+        ArrayList l=new ArrayList();
+        l.addAll(list);
+        System.out.println(l);
     }
 }
